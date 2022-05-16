@@ -1,0 +1,65 @@
+
+ body {
+    padding: 10vw;
+    margin: 0;
+  }
+  .shadows {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10vw;
+    justify-items: stretch;
+    margin-bottom: 100px;
+  }
+  .shadows > div {
+    aspect-ratio: 1;
+    border: 1px solid #cccccc;
+  }
+
+  .elevation-1 {
+    box-shadow: 
+    1px 1px 1px rgba(0, 0, 0, 0.3), 
+    3px 3px 3px rgba(0, 0, 0, 0.3),
+    5px 5px 5px rgba(0, 0, 0, 0.3);
+  }
+  .elevation-2 {
+    box-shadow: 
+    7px 7px 7px rgba(0, 0, 0, 0.3), 
+    9px 9px 9px rgba(0, 0, 0, 0.3),
+    11px 11px 11px rgba(0, 0, 0, 0.3);
+  }
+  .elevation-3 {
+    box-shadow: 
+    -17px -17px 17px rgba(0, 0, 0, 0.3),
+    -15px -15px 15px rgba(0, 0, 0, 0.3), 
+    -13px -13px 12px rgba(0, 0, 0, 0.3);
+  }
+  .elevation-4 {
+    box-shadow: 
+    inset 24px 24px 24px rgba(0, 0, 0, 0.3),
+    inset 24px 24px 22px rgba(0, 0, 0, 0.3), 
+    inset 24px 24px 20px rgba(0, 0, 0, 0.3),
+    inset -24px -24px 24px rgba(0, 0, 0, 0.3), 
+    inset -22px -22px 22px rgba(0, 0, 0, 0.3),
+    inset -20px -20px 20px rgba(0, 0, 0, 0.3), 
+    20px 20px 20px rgba(0, 0, 0, 0.3),
+    22px 22px 22px rgba(0, 0, 0, 0.3), 
+    24px 24px 24px rgba(0, 0, 0, 0.3);
+  }
+  .elevation-5 {
+    box-shadow: 
+    inset -24px 24px 24px rgba(0, 0, 0, 0.3), 
+    inset -22px 22px 22px rgba(0, 0, 0, 0.3),
+    inset -20px 20px 20px rgba(0, 0, 0, 0.3), 
+    -30px 30px 30px rgba(0, 0, 0, 0.3),
+    -32px 32px 32px rgba(0, 0, 0, 0.3), 
+    -34px 34px 34px rgba(0, 0, 0, 0.3);
+  }
+  .elevation-6 {
+    box-shadow: 
+    inset 24px -24px 24px rgba(0, 0, 0, 0.3),
+    inset 22px -22px 22px rgba(0, 0, 0, 0.3), 
+    inset 20px -20px 20px rgba(0, 0, 0, 0.3),
+    35px -35px 35px rgba(0, 0, 0, 0.3),
+    33px -33px 33px rgba(0, 0, 0, 0.3), 
+    31px -31px 31px rgba(0, 0, 0, 0.3);
+  }
